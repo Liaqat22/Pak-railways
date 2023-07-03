@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(19, 107, 19),rgb(55, 196, 55));
+    
+}
+.main{
+    background-color: white;
+    width: 90%;
+    height: 100%auto;
+    margin: 60px ;
+    border-radius: 10px;
+   
+    
+}
+header{
+    margin: 50px 50px;
+    padding:  0px 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+   
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.nav0 li{
+    list-style: none;
+    display: inline;
+}
+.nav0 li a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 6px 9px;
+    color: green;
+    margin: 20px 0px 20px 40px;
+    
+
+
+}
+.p1{
+    display: inline;
+    color: rgb(2, 95, 2);
+    margin: 0px 0px 0px 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 124, 32);
+    border-radius: 4px;
+    margin: 0px 20px;
+    
+}
+.nav1 li{
+    list-style: none;
+    display: inline;
+    
+}
+.nav1 li a {
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    padding: 7.5px;
+    color: white;
+    
+}
+.nav1 li a:hover{
+    background-color: rgb(3, 82, 3);
+    transition: 0.5s;
+}
+
+.nav1 li a i {
+    color: rgb(170, 235, 170);
+    font-size: 22px;
+}
+section{
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px 20px;
+}
+.row{
+width: 100%;
+display: flex;
+justify-content: space-between;
+
+}
+.col1{
+    flex-basis: 25%;
+background-color: green;
+width: 25%;
+padding: 20px;  
+border-radius: 6px; 
+}
+.p2{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 7px 0px;
+    }
+hr{
+border: 2px solid yellow;  
+  
+}
+select{
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+option{
+     text-align: center;
+   }
+.btn{
+    width: 100%;
+    padding : 8px ;
+    background-color: yellow;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.jrny{
+    margin-top: 15px;
+}
+.fare{
+    margin-top: 26px;
+}
+.col2{
+    flex-basis: 73%;  
+}
+.p3{
+    font-size: 23px;
+    font-weight: 600;
+   color: rgb(4, 97, 4);
+   text-transform: uppercase;
+}
+.col2 hr{
+    border: 1px solid greenyellow;
+    margin-top: 4px;
+}
+.col2 .date{
+    width: 100%;
+    min-height: 75px;
+
+    background-color: rgb(105, 167, 34);
+    margin: 20px 0px -40px 0px;
+    padding: 30px;
+    border-radius: 6px;
+}
+.col2 .date .p1{
+    color: white;
+   margin-left: 200px;
+   
+}
+.p4{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(4, 97, 4);
+}
+.mainn{
+    width: 100%;
+}
+.main1{
+    margin-top: 55px;
+}
+.notice{
+    width: 100%;
+    background-color: rgb(224, 233, 233);
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.notice .p5{
+    color: rgb(10, 83, 10);
+  
+}
+.notice li{
+list-style: none;
+color: black;
+font-weight: 700;
+margin: 3px 27px;
+font-size: 15px;
+}
+
+span{
+    color: rgb(241, 26, 26);
+}
+.notice i{
+    font-size: 13px;
+    margin: 0px 3px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.bar{
+    border: 2px solid rgb(77, 121, 12);
+    margin: 0px 20px;
+}
+ul{
+    padding: 0px 20px;
+}
+footer li{
+    list-style: none;
+    margin: 10px 0px;
+}
+footer li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(46, 73, 5);
+}
+.copyrights{
+    width: 100%;
+    background-color: green;
+    
+    padding: 14px;
+    border-radius: 0px 0px 6px 6px ;
+    display: flex;
+    justify-content: space-between;
+}
+.copyrights .p6{
+    color: white;
+    font-size: 17px;
+}
+.copyrights li{
+    list-style: none;
+    display: inline-block;
+  
+}
+.copyrights li a {
+    text-decoration: none;
+    color:white ;
+    font-size: 17px;
+    margin: 0px 4px;
+    border-right: 1px solid yellow;
+    padding: 2px 8px;
+    text-transform: capitalize;
+}
+.copyrights li .bdr{
+    border: none;
+    padding: 1px;
+}
+.copyrights li .bdr1{
+    border: none; 
+}
+@media  screen and (max-width: 600px){
+    
+.main{
+    
+    width: 150%;
+    
+}
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo img{
+    width: 50%;
+    height: 51%;
+    cursor: pointer;
+    margin-left: 70px;
+}
+.nav0 li a{
+    display: inline-block;
+    font-size: 30px;
+}
+.nav0{
+    margin: 0px 0px 0px -88px;
+
+}
+.p1{
+    font-size: 30px;
+}.nav1{
+    padding: 30px;
+}
+.nav1 li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   margin: 10px 0px;
+}
+.nav1 li a{
+    text-align: center;
+    font-size: 24px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+    .col2 .date .p1{
+        color: white;
+        margin: 0px 20px 40px 20px;
+       font-size: 26px;  
+       
+    }
+    .col2 .date{
+        width: 100%;
+       min-height: 100px;
+       
+    }
+    select{
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 30px;
+    }
+    .p2{
+        font-size: 35px;
+    }
+    .p3{
+        font-size: 35px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .p4{
+        font-size: 35px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .p5{
+        font-size: 24px;
+       
+    }
+    .copyrights .p6{
+        color: white;
+        font-size: 20px;
+    }
+    .notice li{
+        
+        
+        font-weight: 400;
+        
+        font-size: 30px;
+        }
+        .notice i{
+            font-size: 20px;
+            color: rgb(90, 4, 4);
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            justify-content: center;
+            
+        }
+        footer ul{
+            margin: 10px 0px;
+        }
+        .copyrights li a{
+            border: none;
+            margin: 4px 0px;
+font-size: 18px;
+padding: 10px;
+        }
+}
