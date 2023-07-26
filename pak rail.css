@@ -269,6 +269,13 @@ header{
     flex-direction: column;
     
 }
+    nav{
+        white-space: nowrap;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+}
 .logo img{
     width: 50%;
     height: 51%;
